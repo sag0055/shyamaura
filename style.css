@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+.header{
+    position: fixed;
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            /* padding: 10px 20px; */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000; /* Ensures it's above other content */
+            cursor: pointer;
+        }
+            
+        
+   
+
+.logo{
+    width: 30%;
+    height: 80px;
+    line-height: 80%;
+    float: left;
+    margin-top: 20px;
+   
+   
+    
+}
+.menu{
+    width: 70%;
+    line-height: 50%;
+    float: right;
+    margin: 10px,10px;
+    padding-top: 10px;
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+
+    word-spacing: 5em;
+
+ 
+}
+li{
+    display: inline-block;
+   
+    /* border: 1px solid black; */
+    padding:  10px 10px;
+  }
+.backimg{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(././image/photo1.jpg); */
+   background-image: url(./image/poster1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+
+
+}
+li a {
+text-decoration: none;
+outline: none;
+color: white;
+}
+ h1 {
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+ }
+.service-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.service-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.service-box h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-box p {
+    color: #555;
+}
+.gal{
+    background-color: yellowgreen;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+}
+
+.gallery-item:hover .caption {
+    opacity: 1;
+}
+
+footer {
+    background-color: #3a3a8b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ .about h3 {
+    text-align:center ;
+   
+ }
+ .about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  .about-us img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px; /* Space between image and text */
+  }
+  .about-us-content {
+    max-width: 600px;
+  }
+  .about-us-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+  .about-us-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-left: 25px;
+  }
+  .about-us img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    background-color: #1a1a1a; /* Dark gray for form background */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+   
+}
+
+/* Heading styles */
+.form-container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #f9c74f; /* Gold color for branding */
+}
+
+.form-container p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #ccc; /* Subtle gray for secondary text */
+}
+
+/* Input and textarea styles */
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #262626;
+    color: #fff;
+}
+
+/* Button styles */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9c74f; 
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #c89634;
+}
+/* Footer text */
+.form-container .footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+}
+
+.footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    position: inherit;
+}
+
+.footer a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    text-decoration: none;
+} 
+
+.custom-footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+   
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.custom-footer p {
+    
+    font-size: 14px;
+
+}
+
+h1 h2 h3 h4 h5 p {
+    text-decoration: none;
+    outline: none;
+}

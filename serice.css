@@ -1,0 +1,35 @@
+
+
+.h1 {
+    text-align: center;
+}
+.service-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.service-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.service-box h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-box p {
+    color: #555;
+}
+ /* .container1 {
+    margin-top: -50PX;
+    padding-top: -50PX;
+ } */

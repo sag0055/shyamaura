@@ -1,0 +1,35 @@
+.about h3 {
+  text-align:center ;
+ 
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+.about-us img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px; /* Space between image and text */
+}
+.about-us-content {
+  max-width: 600px;
+}
+.about-us-content h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.about-us-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin-left: 25px;
+}
+.about-us img {
+  margin-right: 0;
+  margin-bottom: 20px;
+}

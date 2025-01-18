@@ -1,0 +1,72 @@
+
+   
+.form-container {
+    background-color: #1a1a1a; 
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+/* Heading styles */
+.form-container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #f9c74f; /* Gold color for branding */
+}
+
+.form-container p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #ccc; /* Subtle gray for secondary text */
+}
+
+/* Input and textarea styles */
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #262626;
+    color: #fff;
+}
+
+/* Button styles */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9c74f; /* Gold button for branding */
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #c89634; /* Slightly darker gold on hover */
+}
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: grid; /* Enables Grid layout */
+    place-items: center; /* Centers the form horizontally and vertically */
+    height: 100vh; /* Full viewport height */
+} 
